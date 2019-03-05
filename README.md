@@ -1,4 +1,3 @@
-
 ### Step 1:
 - Create a Google Spreahsheet : My question set needs to have Aptitude and Technical questions, you can create number of sheets using '+' icon. For my case sheets are enough and name them as shown in the image below
 
@@ -71,3 +70,6 @@ Go to **Tools -> Macros -> Import**
 - You can create a keyboard shortcut using Manage macros
 
 ![Managing macros](https://github.com/pavanSaberjack/GoogleAppScript/blob/master/Screen%20Shot%202019-03-05%20at%2011.23.24%20AM.png)
+
+
+# Feedbacks are most welcome
