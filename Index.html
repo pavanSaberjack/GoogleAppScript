@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <base target="_top">
+  <style>
+  form {    
+    width: 100%;
+    margin-left : 0%
+  }
+  </style>
+    
+  </head>
+  <body>
+  <form style="padding: 50x 100px;">
+     Enter number of sets:<br>
+     <input type="text" name="numberOfSets" id='numberOfSets' value="1">
+     <br><br>
+     
+     Enter number of questions per set:<br>
+     <input type="text" name="questionsCount" id='questionsCount' value="15">
+     <br><br>
+     
+     Enter Google Doc URL:<br>
+     <input type="text" name="docUrl" id='docUrl' style="width: 100%">
+     <br><br><br>
+     <input type="button" value="Submit"
+        onclick="google.script.run.userDidClickSubmit(document.getElementById('numberOfSets').value, document.getElementById('questionsCount').value, document.getElementById('docUrl').value)" />
+     <input type="button" value="Cancel" onclick="google.script.host.close()" />
+  </form> 
+  </body>
+</html>
+
+
+
+
+
